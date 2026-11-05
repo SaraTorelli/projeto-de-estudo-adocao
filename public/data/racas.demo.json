@@ -1,0 +1,722 @@
+[
+  {
+    "weight": {
+      "imperial": "55 - 75",
+      "metric": "25 - 34"
+    },
+    "height": {
+      "imperial": "20 - 24",
+      "metric": "51 - 61"
+    },
+    "id": 1,
+    "name": "Golden Retriever",
+    "bred_for": "Retrieving",
+    "breed_group": "Sporting Group",
+    "life_span": "10 - 12",
+    "temperament": "Confident, Kind, Friendly, Reliable, Trustworthy, Intelligent",
+    "origin": "Scotland",
+    "reference_image_id": "demo-golden-retriever",
+    "image": {
+      "id": "demo-golden-retriever",
+      "url": "/images/breeds/golden-retriever.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "55 - 79",
+      "metric": "25 - 36"
+    },
+    "height": {
+      "imperial": "21 - 24",
+      "metric": "53 - 60"
+    },
+    "id": 2,
+    "name": "Labrador Retriever",
+    "bred_for": "Water retrieving",
+    "breed_group": "Sporting Group",
+    "life_span": "10 - 13",
+    "temperament": "Friendly, Active, Outgoing, Loyal, Gentle, Intelligent",
+    "origin": "Canada",
+    "reference_image_id": "demo-labrador-retriever",
+    "image": {
+      "id": "demo-labrador-retriever",
+      "url": "/images/breeds/labrador-retriever.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "49 - 88",
+      "metric": "22 - 40"
+    },
+    "height": {
+      "imperial": "22 - 26",
+      "metric": "55 - 65"
+    },
+    "id": 3,
+    "name": "German Shepherd",
+    "bred_for": "Herding & guarding",
+    "breed_group": "Herding Group",
+    "life_span": "9 - 13",
+    "temperament": "Confident, Courageous, Smart, Loyal, Protective, Alert",
+    "origin": "Germany",
+    "reference_image_id": "demo-german-shepherd",
+    "image": {
+      "id": "demo-german-shepherd",
+      "url": "/images/breeds/german-shepherd.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "18 - 31",
+      "metric": "8 - 14"
+    },
+    "height": {
+      "imperial": "11 - 13",
+      "metric": "28 - 33"
+    },
+    "id": 4,
+    "name": "French Bulldog",
+    "bred_for": "Companion",
+    "breed_group": "Non-Sporting Group",
+    "life_span": "10 - 12",
+    "temperament": "Playful, Alert, Sociable, Patient, Easygoing, Affectionate",
+    "origin": "France, England",
+    "reference_image_id": "demo-french-bulldog",
+    "image": {
+      "id": "demo-french-bulldog",
+      "url": "/images/breeds/french-bulldog.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "44 - 71",
+      "metric": "20 - 32"
+    },
+    "height": {
+      "imperial": "18 - 24",
+      "metric": "45 - 62"
+    },
+    "id": 5,
+    "name": "Standard Poodle",
+    "bred_for": "Water retrieving",
+    "breed_group": "Non-Sporting Group",
+    "life_span": "12 - 15",
+    "temperament": "Intelligent, Active, Proud, Trainable, Alert, Instinctual",
+    "origin": "Germany, France",
+    "reference_image_id": "demo-standard-poodle",
+    "image": {
+      "id": "demo-standard-poodle",
+      "url": "/images/breeds/standard-poodle.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "20 - 31",
+      "metric": "9 - 14"
+    },
+    "height": {
+      "imperial": "13 - 16",
+      "metric": "33 - 41"
+    },
+    "id": 6,
+    "name": "Beagle",
+    "bred_for": "Rabbit hunting",
+    "breed_group": "Hound Group",
+    "life_span": "12 - 15",
+    "temperament": "Curious, Friendly, Merry, Gentle, Amiable, Intelligent",
+    "origin": "England",
+    "reference_image_id": "demo-beagle",
+    "image": {
+      "id": "demo-beagle",
+      "url": "/images/breeds/beagle.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "2 - 7",
+      "metric": "1 - 3"
+    },
+    "height": {
+      "imperial": "6 - 9",
+      "metric": "15 - 23"
+    },
+    "id": 7,
+    "name": "Chihuahua",
+    "bred_for": "Companion",
+    "breed_group": "Toy Group",
+    "life_span": "12 - 20",
+    "temperament": "Devoted, Lively, Alert, Courageous, Quick, Sassy",
+    "origin": "Mexico",
+    "reference_image_id": "demo-chihuahua",
+    "image": {
+      "id": "demo-chihuahua",
+      "url": "/images/breeds/chihuahua.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "13 - 18",
+      "metric": "6 - 8"
+    },
+    "height": {
+      "imperial": "10 - 13",
+      "metric": "25 - 33"
+    },
+    "id": 8,
+    "name": "Pug",
+    "bred_for": "Companion",
+    "breed_group": "Toy Group",
+    "life_span": "12 - 15",
+    "temperament": "Docile, Clever, Charming, Sociable, Playful, Affectionate",
+    "origin": "China",
+    "reference_image_id": "demo-pug",
+    "image": {
+      "id": "demo-pug",
+      "url": "/images/breeds/pug.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "31 - 44",
+      "metric": "14 - 20"
+    },
+    "height": {
+      "imperial": "18 - 22",
+      "metric": "46 - 56"
+    },
+    "id": 9,
+    "name": "Border Collie",
+    "bred_for": "Herding sheep",
+    "breed_group": "Herding Group",
+    "life_span": "12 - 15",
+    "temperament": "Tenacious, Keen, Energetic, Responsive, Smart, Affectionate",
+    "origin": "United Kingdom, Ireland, Scotland, Wales",
+    "reference_image_id": "demo-border-collie",
+    "image": {
+      "id": "demo-border-collie",
+      "url": "/images/breeds/border-collie.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "9 - 15",
+      "metric": "4 - 7"
+    },
+    "height": {
+      "imperial": "8 - 11",
+      "metric": "20 - 28"
+    },
+    "id": 10,
+    "name": "Shih Tzu",
+    "bred_for": "Lapdog",
+    "breed_group": "Toy Group",
+    "life_span": "10 - 18",
+    "temperament": "Affectionate, Outgoing, Playful, Clever, Gentle, Lively",
+    "origin": "China, Tibet",
+    "reference_image_id": "demo-shih-tzu",
+    "image": {
+      "id": "demo-shih-tzu",
+      "url": "/images/breeds/shih-tzu.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "77 - 132",
+      "metric": "35 - 60"
+    },
+    "height": {
+      "imperial": "22 - 27",
+      "metric": "56 - 69"
+    },
+    "id": 11,
+    "name": "Rottweiler",
+    "bred_for": "Cattle driving & guarding",
+    "breed_group": "Working Group",
+    "life_span": "8 - 10",
+    "temperament": "Loyal, Confident, Fearless, Good-natured, Steady, Devoted",
+    "origin": "Germany",
+    "reference_image_id": "demo-rottweiler",
+    "image": {
+      "id": "demo-rottweiler",
+      "url": "/images/breeds/rottweiler.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "9 - 26",
+      "metric": "4 - 12"
+    },
+    "height": {
+      "imperial": "8 - 11",
+      "metric": "20 - 27"
+    },
+    "id": 12,
+    "name": "Dachshund",
+    "bred_for": "Badger hunting",
+    "breed_group": "Hound Group",
+    "life_span": "12 - 16",
+    "temperament": "Curious, Friendly, Clever, Brave, Lively, Stubborn",
+    "origin": "Germany",
+    "reference_image_id": "demo-dachshund",
+    "image": {
+      "id": "demo-dachshund",
+      "url": "/images/breeds/dachshund.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "4 - 9",
+      "metric": "2 - 4"
+    },
+    "height": {
+      "imperial": "7 - 9",
+      "metric": "18 - 23"
+    },
+    "id": 13,
+    "name": "Yorkshire Terrier",
+    "bred_for": "Ratting",
+    "breed_group": "Toy Group",
+    "life_span": "11 - 15",
+    "temperament": "Bold, Confident, Independent, Intelligent, Courageous, Affectionate",
+    "origin": "England",
+    "reference_image_id": "demo-yorkshire-terrier",
+    "image": {
+      "id": "demo-yorkshire-terrier",
+      "url": "/images/breeds/yorkshire-terrier.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "55 - 71",
+      "metric": "25 - 32"
+    },
+    "height": {
+      "imperial": "21 - 25",
+      "metric": "53 - 64"
+    },
+    "id": 14,
+    "name": "Boxer",
+    "bred_for": "Guarding & working",
+    "breed_group": "Working Group",
+    "life_span": "9 - 12",
+    "temperament": "Playful, Loyal, Intelligent, Friendly, Devoted, Energetic",
+    "origin": "Germany",
+    "reference_image_id": "demo-boxer",
+    "image": {
+      "id": "demo-boxer",
+      "url": "/images/breeds/boxer.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "35 - 60",
+      "metric": "16 - 27"
+    },
+    "height": {
+      "imperial": "20 - 24",
+      "metric": "51 - 60"
+    },
+    "id": 15,
+    "name": "Siberian Husky",
+    "bred_for": "Sled pulling",
+    "breed_group": "Working Group",
+    "life_span": "12 - 14",
+    "temperament": "Outgoing, Friendly, Gentle, Alert, Intelligent, Mischievous",
+    "origin": "Russia",
+    "reference_image_id": "demo-siberian-husky",
+    "image": {
+      "id": "demo-siberian-husky",
+      "url": "/images/breeds/siberian-husky.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "18 - 22",
+      "metric": "8 - 10"
+    },
+    "height": {
+      "imperial": "14 - 17",
+      "metric": "35 - 43"
+    },
+    "id": 16,
+    "name": "Shiba Inu",
+    "bred_for": "Hunting small game",
+    "breed_group": "Non-Sporting Group",
+    "life_span": "12 - 15",
+    "temperament": "Faithful, Alert, Charming, Keen, Confident, Independent",
+    "origin": "Japan",
+    "reference_image_id": "demo-shiba-inu",
+    "image": {
+      "id": "demo-shiba-inu",
+      "url": "/images/breeds/shiba-inu.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "84 - 110",
+      "metric": "38 - 50"
+    },
+    "height": {
+      "imperial": "23 - 28",
+      "metric": "58 - 70"
+    },
+    "id": 17,
+    "name": "Bernese Mountain Dog",
+    "bred_for": "Draft & farm work",
+    "breed_group": "Working Group",
+    "life_span": "7 - 10",
+    "temperament": "Good-natured, Calm, Strong, Affectionate, Loyal, Gentle",
+    "origin": "Switzerland",
+    "reference_image_id": "demo-bernese-mountain-dog",
+    "image": {
+      "id": "demo-bernese-mountain-dog",
+      "url": "/images/breeds/bernese-mountain-dog.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "26 - 33",
+      "metric": "12 - 15"
+    },
+    "height": {
+      "imperial": "15 - 17",
+      "metric": "38 - 43"
+    },
+    "id": 18,
+    "name": "Cocker Spaniel",
+    "bred_for": "Bird flushing & retrieving",
+    "breed_group": "Sporting Group",
+    "life_span": "12 - 15",
+    "temperament": "Playful, Gentle, Trainable, Affectionate, Sociable, Cheerful",
+    "origin": "England",
+    "reference_image_id": "demo-cocker-spaniel",
+    "image": {
+      "id": "demo-cocker-spaniel",
+      "url": "/images/breeds/cocker-spaniel.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "11 - 20",
+      "metric": "5 - 9"
+    },
+    "height": {
+      "imperial": "12 - 14",
+      "metric": "30 - 36"
+    },
+    "id": 19,
+    "name": "Miniature Schnauzer",
+    "bred_for": "Ratting",
+    "breed_group": "Terrier Group",
+    "life_span": "12 - 15",
+    "temperament": "Friendly, Smart, Obedient, Spirited, Alert, Energetic",
+    "origin": "Germany",
+    "reference_image_id": "demo-miniature-schnauzer",
+    "image": {
+      "id": "demo-miniature-schnauzer",
+      "url": "/images/breeds/miniature-schnauzer.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "44 - 71",
+      "metric": "20 - 32"
+    },
+    "height": {
+      "imperial": "18 - 22",
+      "metric": "45 - 55"
+    },
+    "id": 20,
+    "name": "Bull Terrier",
+    "bred_for": "Companion",
+    "breed_group": "Terrier Group",
+    "life_span": "12 - 13",
+    "temperament": "Playful, Sweet-tempered, Keen, Trainable, Active, Protective",
+    "origin": "England",
+    "reference_image_id": "demo-bull-terrier",
+    "image": {
+      "id": "demo-bull-terrier",
+      "url": "/images/breeds/bull-terrier.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "11 - 18",
+      "metric": "5 - 8"
+    },
+    "height": {
+      "imperial": "10 - 12",
+      "metric": "25 - 30"
+    },
+    "id": 21,
+    "name": "Jack Russell Terrier",
+    "bred_for": "Fox hunting",
+    "breed_group": "Terrier Group",
+    "life_span": "13 - 16",
+    "temperament": "Bold, Energetic, Intelligent, Lively, Fearless, Stubborn",
+    "origin": "England",
+    "reference_image_id": "demo-jack-russell-terrier",
+    "image": {
+      "id": "demo-jack-russell-terrier",
+      "url": "/images/breeds/jack-russell-terrier.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "66 - 99",
+      "metric": "30 - 45"
+    },
+    "height": {
+      "imperial": "24 - 28",
+      "metric": "61 - 72"
+    },
+    "id": 22,
+    "name": "Doberman Pinscher",
+    "bred_for": "Guarding",
+    "breed_group": "Working Group",
+    "life_span": "9 - 12",
+    "temperament": "Alert, Energetic, Obedient, Loyal, Fearless, Intelligent",
+    "origin": "Germany",
+    "reference_image_id": "demo-doberman-pinscher",
+    "image": {
+      "id": "demo-doberman-pinscher",
+      "url": "/images/breeds/doberman-pinscher.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "55 - 88",
+      "metric": "25 - 40"
+    },
+    "height": {
+      "imperial": "23 - 28",
+      "metric": "58 - 71"
+    },
+    "id": 23,
+    "name": "Akita",
+    "bred_for": "Hunting bears",
+    "breed_group": "Working Group",
+    "life_span": "10 - 15",
+    "temperament": "Docile, Alert, Receptive, Faithful, Courageous, Dignified",
+    "origin": "Japan",
+    "reference_image_id": "demo-akita",
+    "image": {
+      "id": "demo-akita",
+      "url": "/images/breeds/akita.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "44 - 64",
+      "metric": "20 - 29"
+    },
+    "height": {
+      "imperial": "13 - 15",
+      "metric": "33 - 38"
+    },
+    "id": 24,
+    "name": "Basset Hound",
+    "bred_for": "Scent tracking",
+    "breed_group": "Hound Group",
+    "life_span": "10 - 12",
+    "temperament": "Affectionate, Sweet-Tempered, Devoted, Gentle, Friendly, Tenacious",
+    "origin": "France",
+    "reference_image_id": "demo-basset-hound",
+    "image": {
+      "id": "demo-basset-hound",
+      "url": "/images/breeds/basset-hound.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "4 - 9",
+      "metric": "2 - 4"
+    },
+    "height": {
+      "imperial": "8 - 10",
+      "metric": "20 - 25"
+    },
+    "id": 25,
+    "name": "Maltese",
+    "bred_for": "Lapdog",
+    "breed_group": "Toy Group",
+    "life_span": "12 - 15",
+    "temperament": "Gentle, Playful, Affectionate, Fearless, Lively, Charming",
+    "origin": "Malta",
+    "reference_image_id": "demo-maltese",
+    "image": {
+      "id": "demo-maltese",
+      "url": "/images/breeds/maltese.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "119 - 176",
+      "metric": "54 - 80"
+    },
+    "height": {
+      "imperial": "26 - 31",
+      "metric": "65 - 80"
+    },
+    "id": 26,
+    "name": "Saint Bernard",
+    "bred_for": "Alpine rescue",
+    "breed_group": "Working Group",
+    "life_span": "8 - 10",
+    "temperament": "Gentle, Friendly, Calm, Loving, Lively, Watchful",
+    "origin": "Switzerland, Italy",
+    "reference_image_id": "demo-saint-bernard",
+    "image": {
+      "id": "demo-saint-bernard",
+      "url": "/images/breeds/saint-bernard.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "33 - 71",
+      "metric": "15 - 32"
+    },
+    "height": {
+      "imperial": "22 - 24",
+      "metric": "56 - 61"
+    },
+    "id": 27,
+    "name": "Dalmatian",
+    "bred_for": "Carriage dog",
+    "breed_group": "Non-Sporting Group",
+    "life_span": "11 - 13",
+    "temperament": "Outgoing, Energetic, Playful, Sensitive, Intelligent, Active",
+    "origin": "Croatia",
+    "reference_image_id": "demo-dalmatian",
+    "image": {
+      "id": "demo-dalmatian",
+      "url": "/images/breeds/dalmatian.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "15 - 31",
+      "metric": "7 - 14"
+    },
+    "height": {
+      "imperial": "19 - 22",
+      "metric": "47 - 56"
+    },
+    "id": 28,
+    "name": "Whippet",
+    "bred_for": "Racing & coursing",
+    "breed_group": "Hound Group",
+    "life_span": "12 - 15",
+    "temperament": "Affectionate, Gentle, Lively, Quiet, Intelligent, Sweet-Tempered",
+    "origin": "England",
+    "reference_image_id": "demo-whippet",
+    "image": {
+      "id": "demo-whippet",
+      "url": "/images/breeds/whippet.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "22 - 31",
+      "metric": "10 - 14"
+    },
+    "height": {
+      "imperial": "10 - 12",
+      "metric": "25 - 31"
+    },
+    "id": 29,
+    "name": "Pembroke Welsh Corgi",
+    "bred_for": "Cattle herding",
+    "breed_group": "Herding Group",
+    "life_span": "12 - 14",
+    "temperament": "Playful, Bold, Friendly, Outgoing, Protective, Tenacious",
+    "origin": "Wales",
+    "reference_image_id": "demo-welsh-corgi",
+    "image": {
+      "id": "demo-welsh-corgi",
+      "url": "/images/breeds/welsh-corgi.jpg",
+      "width": 900,
+      "height": 620
+    }
+  },
+  {
+    "weight": {
+      "imperial": "13 - 26",
+      "metric": "6 - 12"
+    },
+    "height": {
+      "imperial": "13 - 16",
+      "metric": "33 - 41"
+    },
+    "id": 30,
+    "name": "Shetland Sheepdog",
+    "bred_for": "Sheep herding",
+    "breed_group": "Herding Group",
+    "life_span": "12 - 14",
+    "temperament": "Affectionate, Lively, Responsive, Loyal, Gentle, Intelligent",
+    "origin": "Scotland",
+    "reference_image_id": "demo-shetland-sheepdog",
+    "image": {
+      "id": "demo-shetland-sheepdog",
+      "url": "/images/breeds/shetland-sheepdog.jpg",
+      "width": 900,
+      "height": 620
+    }
+  }
+]

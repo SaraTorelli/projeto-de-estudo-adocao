@@ -1,0 +1,230 @@
+@use '../variaveis' as *;
+@use '../mixins' as *;
+
+.script {
+  @include texto-manuscrito(clamp(1.4rem, 2.4vw, 1.8rem));
+}
+
+.destaque-formulario {
+  padding: 44px 0 36px;
+  @include marca-agua-patas(0.05);
+
+  &__grade {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 40px;
+    align-items: center;
+
+    @media (max-width: 900px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  h1 {
+    font-size: clamp(2.2rem, 4.5vw, 3.3rem);
+    font-weight: 800;
+    margin: 8px 0 12px;
+  }
+
+  &__frase {
+    max-width: 440px;
+  }
+
+  &__midia {
+    position: relative;
+
+    img {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      border-radius: $raio-extra;
+      box-shadow: $sombra-2;
+    }
+
+    span {
+      position: absolute;
+      right: 18px;
+      bottom: 18px;
+      background: $creme-50;
+      color: $terracota-600;
+      font-family: $fonte-script;
+      font-size: 1.15rem;
+      line-height: 1.1;
+      padding: 8px 16px;
+      border-radius: $raio-pill;
+      box-shadow: $sombra-1;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+  }
+}
+
+.ja-adotado {
+  margin: 20px auto 60px;
+}
+
+.sucesso {
+  max-width: 620px;
+  margin: 40px auto 80px;
+  text-align: center;
+  @include superficie-card;
+  padding: 56px 44px;
+
+  &__icone {
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    display: inline-grid;
+    place-items: center;
+    background: $verde-100;
+    color: $verde-700;
+    margin-bottom: 18px;
+  }
+
+  h2 {
+    font-size: 1.9rem;
+    margin-bottom: 12px;
+  }
+
+  p {
+    line-height: 1.7;
+  }
+
+  &__acoes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 26px;
+  }
+}
+
+.adocao {
+  padding-bottom: 72px;
+
+  &__layout {
+    display: grid;
+    grid-template-columns: 1.55fr 1fr;
+    gap: 32px;
+    align-items: start;
+    margin-top: 34px;
+
+    @media (max-width: 1020px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__formulario {
+    @include superficie-card;
+    padding: 30px 32px;
+
+    @media (max-width: 640px) {
+      padding: 22px 20px;
+    }
+  }
+
+  &__completo {
+    grid-column: 1 / -1;
+  }
+
+  &__confirmacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: $creme-150;
+    border-radius: $raio-medio;
+    padding: 14px 16px;
+  }
+
+  &__navegacao {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 28px;
+
+    .botao:last-child {
+      flex: 1;
+    }
+  }
+
+  &__erro {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 14px;
+    background: $vermelho-100;
+    color: #a33a3a;
+    font: 500 0.84rem/1.5 $fonte-sans;
+    padding: 11px 14px;
+    border-radius: $raio-pequeno;
+
+    em {
+      font-style: normal;
+      font-weight: 700;
+    }
+  }
+
+  &__lateral {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: sticky;
+    top: calc(#{$altura-topo} + 20px);
+
+    @media (max-width: 1020px) {
+      position: static;
+    }
+  }
+}
+
+.revisao {
+  padding: 22px 0;
+  border-top: 1px solid $linha-200;
+
+  &:first-of-type {
+    border-top: none;
+    padding-top: 4px;
+  }
+
+  h3 {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-size: 1.12rem;
+    margin-bottom: 14px;
+
+    svg {
+      color: $terracota-500;
+    }
+  }
+
+  &__grade {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 0;
+
+    @media (max-width: 720px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__item {
+    background: $creme-150;
+    border-radius: $raio-pequeno;
+    padding: 10px 13px;
+
+    dt {
+      font: 600 0.7rem/1.3 $fonte-sans;
+      color: $tinta-400;
+    }
+
+    dd {
+      margin: 2px 0 0;
+      font: 600 0.85rem/1.4 $fonte-sans;
+      color: $marrom-900;
+      overflow-wrap: anywhere;
+    }
+  }
+}
